@@ -11,7 +11,7 @@ module.exports.run = async (client, message, args) => {
       .setTitle("Commands")
       .setDescription("6 Commands, Make your giveaway right now.")
       .addField("🎁 Giveaway 🎁","start [channel-name] [Time] [winners] [Prize]\nreroll [prize name]\nend [prize name]")
-      .addField("Examples", "h-start #giveaway 5m 1 Testing\nh-end Testing\nh-reroll Testing")
+      .addField("Examples", "(prefix)start #giveaway 5m 1 Testing\n(prefix)end Testing\n(prefix)reroll Testing")
       .addField("Utility", "ping, invite", true)
       .addField("ℹ Information ℹ", "stats", true)
       .addField(" hi frend this is the help command lol lmao aaaaaaa ")
