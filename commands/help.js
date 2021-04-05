@@ -7,7 +7,7 @@ module.exports.run = async (client, message, args) => {
     if(!message.content.startsWith(prefix)) return;
 
     let help = new Discord.MessageEmbed()
-      .setAuthor("horiGiveaway")
+      .setAuthor("help  command uh ")
       .setTitle("Commands")
       .setDescription("6 Commands, Make your giveaway right now.")
       .addField("🎁 Giveaway 🎁","start [channel-name] [Time] [winners] [Prize]\nreroll [prize name]\nend [prize name]")
