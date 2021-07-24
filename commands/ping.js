@@ -11,7 +11,7 @@ module.exports.run = async (client, message, args) => {
   const m = await message.channel.send("Hold on .....")
   
   let pong = new Discord.MessageEmbed()
-  .setTitle("🏓 Pong!")
+  .setTitle("IM NOT DUMB, GO PLAY PING PONG WITH OTHER BOTS")
   .setColor('RANDOM')
   .setTimestamp()
   .addField("Latency", `${m.createdTimestamp - message.createdTimestamp}ms`, true)
